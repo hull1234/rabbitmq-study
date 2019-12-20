@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: hll
+    password: 123456
+#    virtual-host: /
+#    listener:
+#      simple:
+#        retry:
+#          enabled: true
+#          initial-interval: 3000
+#          max-attempts: 5
+#        acknowledge-mode: manual
